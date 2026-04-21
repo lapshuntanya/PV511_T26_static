@@ -3,4 +3,6 @@ project(PV511_T26_static)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(PV511_T26_static main.cpp)
+add_executable(PV511_T26_static main.cpp
+        CarNumber.cpp
+        CarNumber.h)
